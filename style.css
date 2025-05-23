@@ -1,0 +1,66 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+footer {
+    background-color: cornflowerblue;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.mezzo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatti p {
+    display: flex;
+    align-items: center;
+}
+
+.passioni {
+    background-color: lightskyblue;
+    padding: 4rem 0;
+    min-height: 100vh;
+}
+
+.foglio {
+    padding: 3%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border: 1px solid black;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.passioni .card {
+    max-height: 600px;
+    min-height: 520px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.passioni .card-img-top {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.passioni .card-body {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
